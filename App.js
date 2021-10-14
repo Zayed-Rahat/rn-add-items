@@ -13,7 +13,6 @@ export default function App() {
       ...currentGoals,
       { id: Math.random().toString(), value: goalTitle },
     ]);
-    setIsAddMode(false);
   };
 
   const removeGoalHandler = (goalId) => {
